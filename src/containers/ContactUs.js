@@ -5,14 +5,14 @@ import Banner from "../components/Banner";
 import LocationBanner from "../components/LocationBanner";
 import Card from "../components/Card";
 
-import PrizeRibbon from "../Images/prizeRibbon.png";
-import Drumroom from "../Images/drumRoom.jpg";
-import Instruments from "../Images/instruments.jpg";
-import Accessories from "../Images/accessories.jpg";
-import Repairs from "../Images/repairs.jpg"
-import Rentals from "../Images/rentals.gif"
-import Recording from "../Images/recording.jpg"
-import Poster from "../Images/poster.jpg"
+import PrizeRibbon from "../images/prizeRibbon.png";
+import Drumroom from "../images/drumRoom.jpg";
+import Instruments from "../images/instruments.jpg";
+import Accessories from "../images/accessories.jpg";
+import Repairs from "../images/repairs.jpg"
+import Rentals from "../images/rentals.gif"
+import Recording from "../images/recording.jpg"
+import Poster from "../images/poster.jpg"
 
 function ContactUs() {
   return (

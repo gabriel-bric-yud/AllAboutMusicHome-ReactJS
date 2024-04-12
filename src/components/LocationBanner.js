@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
-import NorthPlaza from "../Images/northPlaza.jpg";
+import NorthPlaza from "../images/northPlaza.jpg";
 
 function LocationBanner(props) {
   return (
