@@ -1,9 +1,9 @@
-import React from "react";  
+import React from "react";
 import Dropdown from "./Dropdown";
 
 function RightHeader() {
   return (
-    <div className = "rightHead">
+    <div className="rightHead">
       <Dropdown />
     </div>
   )

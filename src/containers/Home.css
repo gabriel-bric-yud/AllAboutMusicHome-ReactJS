@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   margin-top: 70px;
   justify-content: center;
-  padding: 0px; 
+  padding: 0px;
   overflow: hidden;
   background-color: darkblue;
 }
@@ -27,4 +27,3 @@ body {
   justify-content: center;
   margin: 0px auto 10px auto;
 }
-
