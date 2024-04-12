@@ -28,8 +28,9 @@
 }
 
 .callContainer p {
-  font-size: 60px;
+  font-size: 54px;
   width: 15ch;
+  max-width: 90%;
   letter-spacing: 3px;
 }
 
