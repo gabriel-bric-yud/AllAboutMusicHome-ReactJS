@@ -1,6 +1,6 @@
-import React from 'react';
-import './Banner.css'
-import Description from './Description';
+import React from "react";
+import "./Banner.css"
+import Description from "./Description";
 
 function Banner(props) {
   return (
@@ -9,7 +9,7 @@ function Banner(props) {
       <Description textSize = {props.txtSize} txtWeight = {props.txtWeight} bgImage = {props.bgImage} txtPre = {props.txtPre} highlightColor = {props.highlightColor} highlightTxt = {props.highlightTxt} txtSize = {props.txtSize} />
       <div className= "graphic graphic2" style = {{backgroundImage: `url(${props.graphic2})`, display: [props.graphicDisplay]}}></div>
     </div>
-  )
+  );
 }
 
 export default Banner;

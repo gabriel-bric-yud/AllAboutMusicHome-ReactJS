@@ -89,14 +89,14 @@
     background-color: navy;
     width: 100vw;
     padding: 40px 0px;
-    background-image: url('../Images/posterBackdrop.jpg');
+    background-image: url('../images/posterBackdrop.jpg');
     background-repeat: repeat-x;
     background-size: cover;
     background-position-y: center;
     background-blend-mode: darken ;
     --mask: linear-gradient(to bottom, rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 90%, rgba(0,0,0, 0) 96%, rgba(0,0,0, 0) 0);
     mask: var(--mask);
-    -webkit-mask: var(--mask); 
+    -webkit-mask: var(--mask);
   }
 
   .callContainer {
@@ -126,7 +126,7 @@
     --mask: linear-gradient(to bottom, rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 70%, rgba(0,0,0, 0) 80%, rgba(0,0,0, 0) 0),
     linear-gradient(to top, rgba(0,0,0, 1) 0,   rgba(0,0,0, 1)70%, rgba(0,0,0, 0) 80%, rgba(0,0,0, 0) 0) 100% 100% / 99% 100%;
     mask: var(--mask);
-    -webkit-mask: var(--mask); 
+    -webkit-mask: var(--mask);
     mask-size: 110% 110%;
     mask-position: center;
     mask-composite: intersect;
@@ -146,7 +146,7 @@
   .mobileOnly {
     display: none;
   }
-  
+
 }
 
 @media (min-width: 1040px ) {
