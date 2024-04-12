@@ -35,7 +35,6 @@
   text-align:center;
 }
 
-
 .logo {
   background-image: url('../images/logoCutout.png');
   width: 120px;
@@ -65,7 +64,6 @@
   margin-right: 20px;
   margin-left: 20px;
 }
-
 
 .headerNav {
   display: none;
@@ -101,7 +99,7 @@
   top: 15px;
 }
 
-.myDropdown {
+#myDropdown {
   position: absolute;
   display: none;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -115,10 +113,10 @@
   top: 39px;
 }
 
-.dropdownBtn {
+#dropdownBtn {
   background-image: url('../images/Hamburger_icon.png');
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -126,11 +124,6 @@
 
 .dropdown {
   display: inline-block;
-}
-
-.dropdownBtn {
-  width: 40px;
-  height: 40px;
 }
 
 .dropLink {
@@ -145,15 +138,13 @@
   z-index: 1000;
 }
 
-
 .dropdown .dropLink:hover {
   background-color: white;
 }
 
 .show {
-  display: block;
+  display: block !important;
 }
-
 
 
 /*************** MEDIA QUERIES  ***************/
@@ -180,7 +171,6 @@
     position: relative;
     display: none;
   }
-
 }
 
 @media (min-width: 1043px) {
@@ -195,240 +185,3 @@
     font-size: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-/***************  DESKTOP FIRST (old)
-.fixedHeader {
-  display: grid;
-  position: fixed;
-  top: 0;
-  height: 70px;
-  width: 100%;
-  background-image: url("../images/IMAG000.jpg");
-  background-size: cover;
-  background-color: navy;
-  z-index: 999;
-  box-shadow: 1px 0px 5px 1px black;
-}
-
-.max {
-  display: flex;
-  max-width: 1100px;
-  margin: auto auto;
-  justify-content: space-evenly;
-  width: 95%;
-}
-
-.maxHeader {
-  display: flex;
-  max-width: 1800px;
-  width: 100%;
-  margin: auto auto;
-  justify-content: space-evenly;
-}
-
-
-
-.leftHead {
-  display: flex;
-  align-items: center;
-  margin: 0 auto 0 5px;
-  text-align:center;
-}
-
-
-.logo {
-  background-image: url('../images/logoCutout.png');
-  width: 120px;
-  height: 70px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: drop-shadow(0px 0px 5px blue );
-}
-
-.headerTag {
-  color: white;
-  font-family: 'oswald', 'helvetica';
-  font-size: 15px;
-  margin-left: 1vw;
-  display: none;
-}
-
-
-
-
-.centerHead {
-  margin: auto 0;
-  width: 100%;
-  max-width: 650px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-
-.headerNav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  height: max-content;
-  width: 100%;
-}
-
-.headerNav .navLink {
-  font-family: 'Oswald';
-  color: white;
-  padding: 10px 0px;
-  display: flex;
-  font-size: 20px;
-  flex-wrap: wrap;
-  text-decoration: none;
-}
-
-.headerNav .navLink:hover {
-  color: yellow;
-}
-
-
- DROPDOWN ELEMENTS
-
-.rightHead {
-  display: none;
-}
-
-.myDropdown {
-  position: absolute;
-  display:none;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  width: max-content;
-  background-color: white;
-  border-radius: 20px;
-  border-top-right-radius: 0;
-  overflow: hidden;
-  z-index: 1000;
-  right: 2px;
-  top: 39px;
-}
-
-.dropdownBtn {
-  background-image: url('../images/Hamburger_icon.png');
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-}
-
-.myDropdown .dropLink {
-  color: black;
-  font-family: 'Jockey One', sans-serif;
-  text-decoration: none;
-  display: block;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-  background-color: #ddd;
-  z-index: 1000;
-}
-
-.dropdown {
-  position: relative;
-  display: none;
-}
-
-.dropdown .dropLink:hover {
-  background-color: white;
-}
-
-.show {
-  display: block;
-}
-
-
-@media (min-width: 976px) {
-  .dropdownBtn {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media (min-width: 976px) and (max-width: 1500px) {
-  .max {
-    width: 95%;
-  }
-}
-
-
-@media (max-height: 550px) {
-  .fixedHeader {
-    height: 70px;
-    width: 100%;
-  }
-
-  .dropLink {
-    font-size: 20px ;
-  }
-
-}
-
-
-@media (max-width: 749px) {
-  .fixedHeader {
-    width: 100%;
-  }
-
-  .max {
-    width: auto;
-    max-width: 90vw;
-    font-size: 35px;
-  }
-
-  .leftHead {
-    margin-left: auto;
-  }
-
-  .headerTag {
-    display: none;
-  }
-
-  .centerHead {
-    display: none;
-  }
-
-  .headerNav {
-    display: none;
-  }
-
-  .rightHead {
-    position: absolute;
-    display: block;
-    right: 10px;
-    height: 46px;
-    width: 46px;
-    top: 15px;
-  }
-
-  .dropdown {
-    display: inline-block;
-  }
-
-  .dropdownBtn {
-    width: 40px;
-    height: 40px;
-  }
-}
-
-@media (min-width: 1043px) {
-  .headerTag {
-    display: block;
-    font-size: 20px;
-  }
-}
- ***************/
