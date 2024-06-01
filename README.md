@@ -1,3 +1,5 @@
-This is a website design for All About Music in Parkville, MD made with React Framework and hosted on Azure Web App Service.
+This is a website design for All About Music in Parkville, MD.
 
-Check it out here: https://allaboutmusic.azurewebsites.net
+- Built with ReactJS
+
+Hosted on Azure Cloud. Check it out here: https://allaboutmusic.azurewebsites.net
