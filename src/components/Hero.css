@@ -2,7 +2,7 @@
   display: grid;
   width: 100%;
   max-width: 2000px;
-  margin: 0 auto;
+  margin: 20px auto;
   align-content: center;
   background-color: darkblue;
 }
@@ -84,9 +84,12 @@
 @media (min-width: 750px) {
   .hero {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 2fr 2fr;
     border: none;
     width: 100vw;
+    border-radius: 40px;
+    background-color: black;
+    max-width: 1000px;
     /** background-image: url('../images/posterBackdrop.jpg');
     padding: 40px 0px;
     background-color: navy;
@@ -138,9 +141,9 @@
 
   .topPhotoContainer {
     display: grid;
-    height: 25vw;
+    height: 50vw !important;
     max-height: 500px;
-    border-radius: 50%;
+    border-radius: 40px 0px 0px 40px;
     margin: 20px auto 0 20px;
     z-index: 24;
   }
@@ -171,7 +174,6 @@
   .callContainer p {
     font-size: 100px;
     padding: 0px 70px;
-    width: 15ch;
   }
 }
 
