@@ -2,7 +2,6 @@
   display: grid;
   width: 100%;
   max-width: 2000px;
-  margin: 20px auto;
   align-content: center;
   background-color: darkblue;
 }
@@ -90,6 +89,7 @@
     border-radius: 40px;
     background-color: black;
     max-width: 1000px;
+    margin: 20px auto;
     /** background-image: url('../images/posterBackdrop.jpg');
     padding: 40px 0px;
     background-color: navy;
@@ -144,7 +144,6 @@
     height: 50vw !important;
     max-height: 500px;
     border-radius: 40px 0px 0px 40px;
-    margin: 20px auto 0 20px;
     z-index: 24;
   }
 
@@ -167,12 +166,10 @@
 
 @media (min-width: 1360px) {
   .callToAction {
-    font-size: 100px;
     padding: 0px 70px;
   }
 
   .callContainer p {
-    font-size: 100px;
     padding: 0px 70px;
   }
 }
