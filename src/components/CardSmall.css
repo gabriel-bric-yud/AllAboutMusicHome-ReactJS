@@ -82,12 +82,25 @@
   display: none;
 }
 
-
-@media (min-width: 750px) {
+@media (min-width: 949px) {
   .imageContainerSmall {
-    border: 6px solid white;
+    border: none;
+    border-radius: 40px 0px 0px 40px;
+    border-right: 4px solid #fff;
+  }
+
+  .wrapperSmall {
+    border: 4px solid white;
+    border-radius: 40px;
+    background-color: darkblue;
+  }
+
+  .cardImageSmall {
+    border: none;
+    border-radius: 35px 0px;
   }
 
 
 
 }
+
