@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import "./Home.css"
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
@@ -17,8 +17,10 @@ import Poster from "../images/poster.jpg"
 
 function Home() {
   return (
+    <Fragment>
+    <Hero />
     <div id="CTRDIV" className="fade" style= {{marginBottom: "80px"}}>
-      <Hero />
+
       <Banner
         graphic1={PrizeRibbon}
         graphic2={PrizeRibbon}
@@ -39,6 +41,7 @@ function Home() {
       <iframe title="Parkville Map" width="600" height="450" style={{border: "0", maxWidth: "95vw", margin: "20px auto"}} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/search?q=All%20About%20Music%2C%20Waltham%20Woods%20Road%2C%20Parkville%2C%20MD%2C%20USA&key=AIzaSyDut_9fPyaDMJ8QYS8ciwjVTN3S1lKR0zw"></iframe>
       <Banner txtSize={"60px"} txtWeight={"Bold"} txtPre={"Sign Up Today And "} highlightTxt={"Learn To Play!"} graphicDisplay= {"none"} />
     </div>
+  </Fragment>
   )
 }
 

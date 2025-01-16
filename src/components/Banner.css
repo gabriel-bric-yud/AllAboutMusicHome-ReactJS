@@ -8,20 +8,16 @@
   **/
   align-content: center;
   align-items: center;
-  background-color: darkblue;
   justify-items: center;
   max-width: 2000px;
   background-repeat: repeat-x;
   background-position-y: center;
-  margin-bottom: 40px;
-
 }
 
 .locationBanner {
   display: grid;
   text-decoration: none;
   align-items: center;
-  background-color: darkblue;
   max-width: 2000px;
   justify-items: center;
   margin: 0 auto;
@@ -40,6 +36,7 @@
   max-width: 90%;
   margin: 0 auto;
   letter-spacing: 2px;
+  align-content: center;
 }
 
 .bannerTxt span {
@@ -73,8 +70,9 @@
   .banner {
     display: flex;
     justify-content: space-between;
+    /**
     background-image: url("data:image/svg+xml,%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' id='svg4136' version='1.1' inkscape:version='0.47 r22583' width='100' height='100' opacity = '0.3'  sodipodi:docname='Music-staff.svg'%3E%3Cmetadata id='metadata4142'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage'/%3E%3Cdc:title/%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cdefs id='defs4140'%3E%3Cinkscape:perspective sodipodi:type='inkscape:persp3d' inkscape:vp_x='0 : 0.5 : 1' inkscape:vp_y='0 : 1000 : 0' inkscape:vp_z='1 : 0.5 : 1' inkscape:persp3d-origin='0.5 : 0.33333333 : 1' id='perspective4144'/%3E%3C/defs%3E%3Csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1920' inkscape:window-height='1020' id='namedview4138' showgrid='true' inkscape:zoom='2.8284271' inkscape:cx='276.13729' inkscape:cy='32.629521' inkscape:window-x='0' inkscape:window-y='33' inkscape:window-maximized='1' inkscape:current-layer='svg4136'%3E%3Cinkscape:grid type='xygrid' id='grid4150' empspacing='5' visible='true' enabled='true' snapvisiblegridlinesonly='true'/%3E%3C/sodipodi:namedview%3E%3Cpath style='fill:%23000000' d='m 0,98 0,-2 100,0 100,0 0,2 0,2 -100,0 -100,0 0,-2 z m 0,-24 0,-2 100,0 100,0 0,2 0,2 -100,0 -100,0 0,-2 z m 0,-24 0,-2 100,0 100,0 0,2 0,2 -100,0 -100,0 0,-2 z m 0,-24 0,-2 100,0 100,0 0,2 0,2 L 100,28 0,28 0,26 z M 0,2 0,0 100,0 200,0 200,2 200,4 100,4 0,4 0,2 z' id='path4152'/%3E%3C/svg%3E ");
-
+    */
   }
 
   .locationBanner {

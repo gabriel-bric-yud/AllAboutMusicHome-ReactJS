@@ -2,7 +2,7 @@
   display: grid;
   width: 100%;
   align-content: center;
-  background-color: darkblue;
+  margin: 0 auto;
 }
 
 
@@ -84,8 +84,8 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     border: none;
-    width: 100vw;
     background-color: black;
+    margin: 70px auto 0px;
   }
 
   .callContainer {
@@ -124,7 +124,7 @@
   .topPhotoContainer {
     display: grid;
     height: 50vw !important;
-    max-height: 500px;
+    max-height: 650px;
     /**border-radius: 40px 0px 0px 40px;*/
     z-index: 24;
   }
